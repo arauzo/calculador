@@ -1,0 +1,17 @@
+body {
+ background-color : #000000;
+ font-family : calibri;
+ color : White;
+ text-align : center;
+}
+
+a{
+color: cyan;
+}
+
+
+
+div.tablaCentrada table {
+margin: 0 auto;
+text-align: center;
+}
