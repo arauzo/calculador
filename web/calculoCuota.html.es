@@ -7,7 +7,7 @@
     <meta http-equiv="Content-Script-Type" content="text/javascript" />
     <link rel="stylesheet" href="estilo.css" type="text/css" media="all"/> 
 	<script type="text/javascript" src="guion.js"></script>
-    <title> Calculation of mortgage </title>
+    <title> Cálculo de Hipoteca </title>
 
 
   </head>
@@ -15,47 +15,47 @@
 
 
   <body>
-  <div class="tablaCentrada">
+    <div class="tablaCentrada">
     <div id="cabecera" > 
-      <h1> Calculation of mortgage </h1> 
+      <h1> Cálculo de Hipoteca </h1> 
     </div>
     
     <div id="contenido" > 
-      <form id="formulario" method="post" action="calculoCuotaEng.html" enctype="x-www-form-urlencoded">
-        <table  >
+      <form id="formulario" method="post" action="calculoCuota.html" enctype="x-www-form-urlencoded">
+        <table    >
           <tr> 
             <td> Capital </td>
             <td> <input type="text" name="capital" id="capital"/> </td>
           </tr>
           <tr> 
-            <td> Duration </td>
+            <td> Duración </td>
             <td> <input type="text" name="duracion" id="duracion"/> </td>
           </tr>
           <tr> 
-            <td> Interest </td>
+            <td> Interés </td>
             <td> <input type="text" name="interes" id="interes"/> </td>
           </tr>
           <tr> 
-            <td colspan="2"> <input type="submit" value="Send" name="bEnviar" id="bEnviar" onclick="enviar();return false;"/> 
-							 <input type="hidden" name="idioma" id="idioma" value="en"/>	</td>
+            <td colspan="2"> <input type="submit" value="Enviar" name="bEnviar" id="bEnviar" onclick="enviar();return false;"/> 
+							 <input type="hidden" name="idioma" id="idioma" value="es"/>	</td>
           </tr>  
-        </table>
+        </table> 
       </form>
       <br/><br/>
-		<div id="resultado" style="display:none">
-        <table cellpadding="5" >
+	  <div id="resultado" style="display:none">
+        <table    cellpadding="5" >
           <tr> 
             <td></td>
-            <th> Annual interest </th>
-            <th> Monthly fee </th>
+            <th> Interés anual </th>
+            <th> Cuota mensual </th>
           </tr>
           <tr> 
-            <th> Correct mortgage</th>
+            <th> Hipoteca correcta </th>
             <td id="interesC"> _ </td>
             <td id="cuotaC"> _ </td>
           </tr>
           <tr> 
-            <th> Bank mortgage </th>
+            <th> Hipoteca bancaria </th>
             <td id="interesB"> _ </td>
             <td id="cuotaB"> _ </td>
           </tr> 
@@ -63,64 +63,60 @@
         
         <br/>
         
-        <table cellpadding="5">
+        <table    cellpadding="5">
           <tr>  
             <td></td>
-            <th>Annual</th>
+            <th>Anual</th>
             <th>Total</th>
           </tr>
           <tr>
-            <th>Extra payment</th>
+            <th>Pago extra</th>
             <td id="pagoA">_</td>
             <td id="pagoT">_</td>
           </tr>
         </table>
         
-        <table  cellpadding="40" >
-        
-          
-          
-          
-          
-          
-          
-          <tr>
+        <table    cellpadding="40" >
+          <tr> 
             <td>
-              <table cellpadding="5" id="correcta">
+
+              <table    cellpadding="5" id="correcta">
               <tr>    
         
                 <th colspan="5">&nbsp;</th>
-              </tr>                
-              
-              <tr>
-                <th colspan="5">Correct table</th>
+              </tr>              
+        
+              <tr>    
+        
+                <th colspan="5">Tabla correcta</th>
               </tr>
               <tr>
-                <th> Year </th>
-                <th> Month </th>
-                <th> Debt </th>
-                <th> Amortization </th>
-                <th> Interest </th>
+                <th> Año </th>
+                <th> Mes </th>
+                <th> Deuda </th>
+                <th> Amortización </th>
+                <th> Intereses </th>
               </tr>
-              
+
               </table>
               
             </td>
-            <td>  
-            <table cellpadding="5" id="bancaria">
+            <td> 
+            
+            <table   cellpadding="5" id="bancaria">
               <tr>
               
-              <td colspan="6">I.D.I.: Interests over debt plus interests paid in the year </td>
+              <td colspan="6">I.D.I.: Intereses sobre deuda más los intereses pagados en el año </td>
               </tr>
               <tr>
-              <th colspan="6">Bank table</th>
+              <th colspan="6">Tabla bancaria</th>
               </tr>
               <tr>
-                <th> Year </th>
-                <th> Month </th>
-                <th> Debt </th>
-                <th> Amortization </th>
-                <th> Interest </th>
+                <th> Año </th>
+                <th> Mes </th>
+                <th> Deuda </th>
+                <th> Amortización </th>
+                <th> Intereses </th>
                 <th>I.D.I.</th>
               </tr>
               
@@ -128,7 +124,6 @@
               
             </td>
           </tr>
-          
         </table>
 	</div>
     </div>
@@ -143,13 +138,13 @@
     <tr>
       <td > <a href="index.html"> Sign the petition to change this </a>  </td>
       </tr>
-      </table> 
+    </table> 
 
     
     
             
-                <a href="http://validator.w3.org/check?uri=referer"><img
-                src="http://www.w3.org/Icons/valid-xhtml11" alt="Valid XHTML 1.1" height="31" width="88" /></a>
+                <a href="http://validator.w3.org/check?uri=referer"> <img src="http://www.w3.org/Icons/valid-xhtml11" alt="Valid XHTML 1.1" height="31" width="88" /></a>
+  
   
   
   </div>
