@@ -18,7 +18,7 @@
     </div>
     
     <div id="contenido" > 
-      <form id="formulario" method="post" action="calculoCuotaEng.html" enctype="x-www-form-urlencoded">
+      <form id="formulario" method="post" action="calculoCuota.html" enctype="x-www-form-urlencoded">
         <table  >
           <tr> 
             <td> Capital </td>
