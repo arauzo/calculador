@@ -9,10 +9,7 @@
 	<script type="text/javascript" src="guion.js"></script>
     <title> Cálculo de Hipoteca </title>
 
-
   </head>
-
-
 
   <body>
     <div class="tablaCentrada">
@@ -21,7 +18,7 @@
     </div>
     
     <div id="contenido" > 
-      <form id="formulario" method="post" action="calculoCuota.html" enctype="x-www-form-urlencoded">
+      <form id="formulario" method="post" action="calculoCuotaEsp.html" enctype="x-www-form-urlencoded">
         <table    >
           <tr> 
             <td> Capital </td>
@@ -76,7 +73,7 @@
           </tr>
         </table>
         
-        <table    cellpadding="40" >
+        <table cellpadding="40" >
           <tr> 
             <td>
 
@@ -127,26 +124,20 @@
         </table>
 	</div>
     </div>
-  
+	
   <table cellpadding="4">
       <tr>
-      <td> <a href="index.html"> Firma la petición para cambiar esto </a> </td>
+      <td> <a href="http://www.avaaz.org/es/petition/Bancos_y_legisladores_Usen_la_formula_correcta_en_las_hipotecas/" target="_blank"> Firma la petición para cambiar esto </a> </td>
       <td rowspan="2">  <img src="bancoRobaEsp.jpg" alt="Enlace Peticion" width="100" height="45"  onmouseover="this.src='bancoRobaEng.jpg';" onmouseout="this.src='bancoRobaEsp.jpg' " /> </td>
     
       </tr>
     
     <tr>
-      <td > <a href="index.html"> Sign the petition to change this </a>  </td>
+      <td > <a href="http://www.avaaz.org/en/petition/Bankers_and_lawmakers_Use_the_correct_formula_in_mortgages/" target="_blank"> Sign the petition to change this </a>  </td>
       </tr>
     </table> 
-
-    
-    
-            
                 <a href="http://validator.w3.org/check?uri=referer"> <img src="http://www.w3.org/Icons/valid-xhtml11" alt="Valid XHTML 1.1" height="31" width="88" /></a>
-  
-  
-  
+				
   </div>
   </body>
 
