@@ -126,13 +126,13 @@
   
   <table cellpadding="4">
       <tr>
-      <td> <a href="http://www.avaaz.org/es/petition/Bancos_y_legisladores_Usen_la_formula_correcta_en_las_hipotecas/" target="_blank"> Firma la petición para cambiar esto </a> </td>
+      <td> <a href="http://www.avaaz.org/es/petition/Bancos_y_legisladores_Usen_la_formula_correcta_en_las_hipotecas/" onclick="target='_blank'"> Firma la petición para cambiar esto </a> </td>
       <td rowspan="2">  <img src="bancoRobaEsp.jpg" alt="Enlace Peticion" width="100" height="45"  onmouseover="this.src='bancoRobaEng.jpg';" onmouseout="this.src='bancoRobaEsp.jpg' " /> </td>
     
       </tr>
     
     <tr>
-      <td > <a href="http://www.avaaz.org/en/petition/Bankers_and_lawmakers_Use_the_correct_formula_in_mortgages/" target="_blank"> Sign the petition to change this </a>  </td>
+      <td > <a href="http://www.avaaz.org/en/petition/Bankers_and_lawmakers_Use_the_correct_formula_in_mortgages/" onclick="target='_blank'"> Sign the petition to change this </a>  </td>
       </tr>
       </table> 
 
