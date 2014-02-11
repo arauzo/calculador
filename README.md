@@ -1,3 +1,4 @@
 calculador
 ==========
-Aqui pondremos todo lo que necesite la web 1 que irá alojada en http://calculador.ax5.org
+
+(Todo lo de este repositorio ha sido movido a: https://github.com/arauzo/interes )
